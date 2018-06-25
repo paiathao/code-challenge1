@@ -27,7 +27,7 @@ function readyNow () {
 
     function deleteButton () {
         console.log('delete button working')
-        $(this).parent().remove();
+        $(this).closest('div').remove();
        
     }
     
